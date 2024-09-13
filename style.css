@@ -132,3 +132,58 @@ footer {
     font-weight: 200;
     color: white;
 }
+
+/* Media Queries untuk Responsiveness */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-profile {
+        margin-bottom: 15px;
+    }
+
+    .holder-img-profile {
+        margin-right: 0;
+    }
+
+    .holder-detail-profile {
+        text-align: center;
+    }
+
+    .content-holder {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .img-profile {
+        width: 120px;
+        height: 120px;
+    }
+
+    .name-profile {
+        font-size: 20px;
+    }
+
+    .title-name-profile {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+
+    .bar-container {
+        width: 100%;
+    }
+
+    .bar-filling {
+        height: 20px;
+    }
+}
